@@ -1,0 +1,34 @@
+// This file has no effect, the real config is settings.json (not tracked by git)
+// Copy entries from here into settings.json in order to use them.
+{
+  "files.associations": {
+    "**/.vscode/launch.recommended.json": "jsonc",
+    "**/.vscode/settings.recommended.json": "jsonc"
+  },
+  "files.exclude": {
+    "**/.DS_Store": true,
+    "**/.git": true
+  },
+  "files.watcherExclude": {
+    "log/**": true,
+    "node_modules/**": true,
+    "tmp/**": true
+  },
+  "explorer.excludeGitIgnore": false,
+  "editor.tabCompletion": "on",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.formatOnSaveMode": "file",
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}

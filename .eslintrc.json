@@ -1,0 +1,22 @@
+{
+  "extends": [
+    "next",
+    "next/core-web-vitals",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:cypress/recommended"
+  ],
+  "plugins": ["@typescript-eslint", "cypress"],
+  "env": {
+    "browser": true,
+    "node": true,
+    "cypress/globals": true
+  },
+  "overrides": [
+    {
+      "files": ["cypress/**/*.ts", "cypress/**/*.tsx"],
+      "rules": {
+        "@typescript-eslint/no-namespace": "off"
+      }
+    }
+  ]
+}
