@@ -7,7 +7,6 @@ import LandingPage from "@/components/ui/LandingPage"
 export default function HomePage() {
   return (
     <div className="min-h-screen">
-      <Header />
       <LandingPage />
     </div>
   )

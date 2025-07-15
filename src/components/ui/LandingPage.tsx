@@ -11,7 +11,7 @@ const LandingPage = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-900 text-white" style={{ backgroundColor: '#151515' }}>
+    <div className=" bg-gray-900 text-white" style={{ backgroundColor: '#151515' }}>
       {/* Main Content */}
       <div className="w-full">
         <div className="grid lg:grid-cols-2 h-screen">

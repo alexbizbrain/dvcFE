@@ -36,6 +36,7 @@ module.exports = {
       // Add custom utilities
       backgroundColor: {
         'golden': '#A87C39',
+        'black': "#151515"
       },
       textColor: {
         'golden': '#A87C39',

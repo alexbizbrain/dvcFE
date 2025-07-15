@@ -34,7 +34,7 @@ body {
 
 :root {
   --white: #ffffff;
-  --black: #000000;
+  --black: #151515;
   --red_500: #f62a2b;
   --red_600: #eb4646;
   --red_700: #d92d20;
@@ -79,6 +79,9 @@ body {
   /* Custom golden utilities */
   .bg-golden {
     background-color: var(--bg-golden);
+  }
+  .bg-black {
+    background-color: var(--black);
   }
   
   .text-golden {

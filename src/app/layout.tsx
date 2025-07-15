@@ -6,6 +6,7 @@ import { AppRouterCacheProvider } from '@mui/material-nextjs/v14-appRouter';
 
 import theme from '../theme';
 import "./globals.css";
+import Header from "@/components/navigation/header";
 
 const poppins = Poppins({
   subsets: ['latin'],
@@ -34,6 +35,7 @@ export default function RootLayout({
         >
           <ThemeProvider theme={theme}>
             <CssBaseline />
+            <Header/>
             {children}
           </ThemeProvider>
         </AppRouterCacheProvider>
