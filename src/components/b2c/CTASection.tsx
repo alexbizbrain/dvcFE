@@ -8,7 +8,7 @@ const CTASection = () => {
         <div className="max-w-4xl mx-auto text-center">
           
           {/* Main Heading */}
-          <h2 className="text-4xl lg:text-5xl font-bold mb-8 leading-tight">
+          <h2 className="text-4xl lg:text-5xl font-medium mb-8 leading-tight">
             Ready to Claim What You're Owed?
           </h2>
           

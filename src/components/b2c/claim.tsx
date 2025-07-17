@@ -14,7 +14,7 @@ const ProsClaimSection = () => {
             
             {/* Left Content */}
             <div>
-              <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-8 leading-tight">
+              <h2 className="text-4xl lg:text-5xl font-medium text-gray-900 mb-8 leading-tight">
                 How the Pros Claim Diminished Value
               </h2>
               

@@ -40,7 +40,7 @@ const StatisticsSection = () => {
                 
                 {expandedAccordion === 'claim-success' && (
                   <div className="text-white">
-                    <p className="text-2xl font-bold mb-3">
+                    <p className="text-2xl font-medium mb-3">
                       92% of Our Customers Successfully Settle Their Claim
                     </p>
                     <p className="text-gray-300 text-sm leading-relaxed mb-6">
@@ -75,7 +75,7 @@ const StatisticsSection = () => {
               
               {expandedAccordion === 'average-recovered' && (
                 <div className="px-6 pb-6">
-                  <p className="text-2xl font-bold mb-3 text-white">
+                  <p className="text-2xl font-medium mb-3 text-white">
                     $4,247 Average Settlement Amount
                   </p>
                   <p className="text-gray-300 text-sm leading-relaxed mb-6">
@@ -109,7 +109,7 @@ const StatisticsSection = () => {
               
               {expandedAccordion === 'drivers-helped' && (
                 <div className="px-6 pb-6">
-                  <p className="text-2xl font-bold mb-3 text-white">
+                  <p className="text-2xl font-medium mb-3 text-white">
                     25,000+ Drivers Successfully Helped
                   </p>
                   <p className="text-gray-300 text-sm leading-relaxed mb-6">
@@ -143,7 +143,7 @@ const StatisticsSection = () => {
               
               {expandedAccordion === 'satisfaction' && (
                 <div className="px-6 pb-6">
-                  <p className="text-2xl font-bold mb-3 text-white">
+                  <p className="text-2xl font-medium mb-3 text-white">
                     4.9/5 Customer Satisfaction Score
                   </p>
                   <p className="text-gray-300 text-sm leading-relaxed mb-6">

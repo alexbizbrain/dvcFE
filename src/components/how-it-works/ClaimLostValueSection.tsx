@@ -11,7 +11,7 @@
           
 //           {/* Header */}
 //           <div className="text-center mb-16">
-//             <h2 className="text-4xl lg:text-5xl font-bold mb-6 leading-tight">
+//             <h2 className="text-4xl lg:text-5xl font-medium mb-6 leading-tight">
 //               How to Claim Your Car's Lost 
 //               <br />
 //               <span className="relative">
@@ -96,7 +96,7 @@ const ClaimLostValueSection = () => {
           
           {/* Header */}
           <div className="text-center mb-16">
-            <h2 className="text-4xl lg:text-5xl font-bold mb-6 leading-tight">
+            <h2 className="text-4xl lg:text-5xl font-medium mb-6 leading-tight">
               How to 
               <span className="relative mx-2">
                 Claim Your Car's

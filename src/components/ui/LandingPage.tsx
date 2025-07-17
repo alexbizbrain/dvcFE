@@ -19,7 +19,7 @@ const LandingPage = () => {
           {/* Auto Accident Section */}
           <div className="bg-white text-gray-900 p-8 flex flex-col justify-center items-center">
             <div className="text-center mb-8">
-              <h1 className="text-4xl font-bold mb-4">
+              <h1 className="text-4xl font-medium mb-4">
                 Had an <span className="text-golden">auto accident</span>?
               </h1>
               <p className="text-2xl mb-2">
@@ -67,10 +67,10 @@ const LandingPage = () => {
           {/* Business Referrals Section */}
           <div className="p-8 flex flex-col justify-center items-center">
             <div className="text-center mb-8">
-              <h2 className="text-4xl font-bold mb-4">
+              <h2 className="text-4xl font-medium mb-4">
                 Grow Your Business with
               </h2>
-              <p className="text-4xl font-bold mb-8">
+              <p className="text-4xl font-medium mb-8">
                 <span className="text-golden">Referrals</span>
                 <br />
                 <br />

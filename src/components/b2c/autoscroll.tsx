@@ -17,7 +17,7 @@ const AutoScrollSection = () => {
   return (
     <div className="bg-white py-16 relative overflow-hidden">
       <div className="text-center mb-12">
-        <h2 className="text-3xl font-semibold text-gray-800">
+        <h2 className="text-3xl font-medium text-gray-800">
           Trusted by Drivers and Industry <span className="text-golden">Experts Nationwide</span>
         </h2>
       </div>

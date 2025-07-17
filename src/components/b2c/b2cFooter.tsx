@@ -52,7 +52,7 @@ const FooterSection = () => {
             <div className="mb-6 lg:mb-0">
               <div className="flex items-center">
                 <div className="w-12 h-12 bg-golden rounded-full flex items-center justify-center mr-3">
-                  <div className="text-white font-bold text-xl">D</div>
+                  <div className="text-white font-medium text-xl">D</div>
                 </div>
                 <span className="text-xl font-semibold">DVC</span>
               </div>

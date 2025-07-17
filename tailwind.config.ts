@@ -50,6 +50,9 @@ module.exports = {
         '.bg-golden': {
           backgroundColor: '#A87C39',
         },
+        '.bg-primary': {
+          backgroundColor: '#A87C39',
+        },
         '.text-golden': {
           color: '#A87C39',
         },

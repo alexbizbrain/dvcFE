@@ -51,7 +51,7 @@ const HowItWorksSection = () => {
           
     //       {/* Header */}
     //       <div className="text-center mb-16">
-    //         <h2 className="text-4xl lg:text-5xl font-bold mb-6">
+    //         <h2 className="text-4xl lg:text-5xl font-medium mb-6">
     //           How It Works
     //         </h2>
     //         <p className="text-gray-300 text-lg max-w-4xl mx-auto leading-relaxed">
@@ -80,7 +80,7 @@ const HowItWorksSection = () => {
 
     //             {/* Step Content */}
     //             <div>
-    //               <h3 className={`text-xl font-bold mb-2 ${step.color}`}>
+    //               <h3 className={`text-xl font-medium mb-2 ${step.color}`}>
     //                 {step.number} {step.title}
     //               </h3>
                   
@@ -112,7 +112,7 @@ const HowItWorksSection = () => {
           
           {/* Header */}
           <div className="text-center mb-16">
-            <h2 className="text-4xl lg:text-5xl font-bold mb-6">
+            <h2 className="text-4xl lg:text-5xl font-medium mb-6">
               How It Works
             </h2>
             <p className="text-gray-300 text-lg max-w-4xl mx-auto leading-relaxed">
@@ -229,7 +229,7 @@ const HowItWorksSection = () => {
 
                 {/* Step Content */}
                 <div>
-                  <h3 className={`text-xl font-bold mb-2 ${step.color}`}>
+                  <h3 className={`text-xl font-medium mb-2 ${step.color}`}>
                     {step.number} {step.title}
                   </h3>
                   

@@ -100,7 +100,7 @@ export default function TestimonialsSection() {
         {/* Header */}
         <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center mb-12">
           <div className="lg:max-w-2xl mb-6 lg:mb-0">
-            <h2 className="text-2xl lg:text-2xl font-bold mb-4">See How We Help Drivers Get Back What They Deserve</h2>
+            <h2 className="text-2xl lg:text-2xl font-medium mb-4">See How We Help Drivers Get Back What They Deserve</h2>
             <p className="text-gray-300 text-lg">
               Explore real stories from customers who turned accidents into fair compensation with no stress and no
               legal hassle.
@@ -144,7 +144,7 @@ export default function TestimonialsSection() {
                   />
                 </div>
                 <div>
-                  <h3 className="text-3xl font-bold mb-6">{testimonials[currentSlide].title}</h3>
+                  <h3 className="text-3xl font-medium mb-6">{testimonials[currentSlide].title}</h3>
                   <p className="text-gray-300 text-lg leading-relaxed">{testimonials[currentSlide].content}</p>
                 </div>
               </div>

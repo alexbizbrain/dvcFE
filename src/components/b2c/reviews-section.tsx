@@ -34,7 +34,7 @@ export default function ReviewsSection({
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-center mb-12">
-          <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-4">{title}</h2>
+          <h2 className="text-4xl lg:text-5xl font-medium text-gray-900 mb-4">{title}</h2>
           <p className="text-gray-600 text-lg max-w-2xl mx-auto">{subtitle}</p>
         </div>
 

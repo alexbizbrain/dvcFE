@@ -70,7 +70,7 @@
 //                 <div className={`relative ${index % 2 === 1 ? 'lg:col-start-2' : ''}`}>
 //                   <div className="relative">
 //                     {/* Large Step Number Background */}
-//                     <div className="absolute -top-8 -right-8 text-8xl font-bold text-gray-800 opacity-50 z-0">
+//                     <div className="absolute -top-8 -right-8 text-8xl font-medium text-gray-800 opacity-50 z-0">
 //                       {step.stepNumber}
 //                     </div>
                     
@@ -98,7 +98,7 @@
 //                     </p>
                     
 //                     {/* Title */}
-//                     <h3 className="text-3xl lg:text-4xl font-bold leading-tight">
+//                     <h3 className="text-3xl lg:text-4xl font-medium leading-tight">
 //                       {step.title}
 //                     </h3>
                     
@@ -143,7 +143,7 @@ const StepByStepGuide = () => {
             {/* Video - Left Side */}
             <div className="relative">
               {/* Large Step Number */}
-              <div className="absolute -top-8 -right-8 text-8xl font-bold text-gray-700 opacity-30 z-0">
+              <div className="absolute -top-8 -right-8 text-8xl font-medium text-gray-700 opacity-30 z-0">
                 01
               </div>
               
@@ -165,7 +165,7 @@ const StepByStepGuide = () => {
               <p className="text-golden text-sm font-medium uppercase tracking-wide">
                 Understand the Problem
               </p>
-              <h3 className="text-3xl lg:text-4xl font-bold leading-tight">
+              <h3 className="text-3xl lg:text-4xl font-medium leading-tight">
                 Even After Repairs, Your Car Lost Value
               </h3>
               <p className="text-gray-300 text-lg leading-relaxed">
@@ -181,7 +181,7 @@ const StepByStepGuide = () => {
               <p className="text-golden text-sm font-medium uppercase tracking-wide">
                 Check If You Qualify
               </p>
-              <h3 className="text-3xl lg:text-4xl font-bold leading-tight">
+              <h3 className="text-3xl lg:text-4xl font-medium leading-tight">
                 Find Out in 60 Seconds
               </h3>
               <p className="text-gray-300 text-lg leading-relaxed">
@@ -192,7 +192,7 @@ const StepByStepGuide = () => {
             {/* Video - Right Side */}
             <div className="relative lg:order-2">
               {/* Large Step Number */}
-              <div className="absolute -top-8 -right-8 text-8xl font-bold text-gray-700 opacity-30 z-0">
+              <div className="absolute -top-8 -right-8 text-8xl font-medium text-gray-700 opacity-30 z-0">
                 02
               </div>
               
@@ -215,7 +215,7 @@ const StepByStepGuide = () => {
             {/* Video - Left Side */}
             <div className="relative">
               {/* Large Step Number */}
-              <div className="absolute -top-8 -right-8 text-8xl font-bold text-gray-700 opacity-30 z-0">
+              <div className="absolute -top-8 -right-8 text-8xl font-medium text-gray-700 opacity-30 z-0">
                 03
               </div>
               
@@ -237,7 +237,7 @@ const StepByStepGuide = () => {
               <p className="text-golden text-sm font-medium uppercase tracking-wide">
                 Choose How You Want to Pay
               </p>
-              <h3 className="text-3xl lg:text-4xl font-bold leading-tight">
+              <h3 className="text-3xl lg:text-4xl font-medium leading-tight">
                 No Risk. You Pick the Payment Plan.
               </h3>
               <p className="text-gray-300 text-lg leading-relaxed">
@@ -253,7 +253,7 @@ const StepByStepGuide = () => {
               <p className="text-golden text-sm font-medium uppercase tracking-wide">
                 We Handle Everything for You
               </p>
-              <h3 className="text-3xl lg:text-4xl font-bold leading-tight">
+              <h3 className="text-3xl lg:text-4xl font-medium leading-tight">
                 We Create the Report & Legal Letters
               </h3>
               <p className="text-gray-300 text-lg leading-relaxed">
@@ -264,7 +264,7 @@ const StepByStepGuide = () => {
             {/* Video - Right Side */}
             <div className="relative lg:order-2">
               {/* Large Step Number */}
-              <div className="absolute -top-8 -right-8 text-8xl font-bold text-gray-700 opacity-30 z-0">
+              <div className="absolute -top-8 -right-8 text-8xl font-medium text-gray-700 opacity-30 z-0">
                 04
               </div>
               
@@ -287,7 +287,7 @@ const StepByStepGuide = () => {
             {/* Video - Left Side */}
             <div className="relative">
               {/* Large Step Number */}
-              <div className="absolute -top-8 -right-8 text-8xl font-bold text-gray-700 opacity-30 z-0">
+              <div className="absolute -top-8 -right-8 text-8xl font-medium text-gray-700 opacity-30 z-0">
                 05
               </div>
               
@@ -309,7 +309,7 @@ const StepByStepGuide = () => {
               <p className="text-golden text-sm font-medium uppercase tracking-wide">
                 You Submit. You Win. We Support.
               </p>
-              <h3 className="text-3xl lg:text-4xl font-bold leading-tight">
+              <h3 className="text-3xl lg:text-4xl font-medium leading-tight">
                 You Send It. We Back You Up.
               </h3>
               <p className="text-gray-300 text-lg leading-relaxed">

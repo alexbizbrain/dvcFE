@@ -72,7 +72,7 @@
 //       <div className="max-w-7xl mx-auto">
 //         {/* Section Header */}
 //         <div className="text-center mb-16">
-//           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">How It Works</h2>
+//           <h2 className="text-4xl md:text-5xl font-medium text-white mb-4">How It Works</h2>
 //           <p className="text-xl text-gray-300 max-w-2xl mx-auto">
 //             Our simple 5-step process to help you claim what you're owed
 //           </p>
@@ -108,7 +108,7 @@
 //         <div className={`space-y-6 ${isLeft ? "" : "lg:col-start-2"}`}>
 //           {/* Step Number */}
 //           <div className="relative">
-//             <span className="text-8xl md:text-9xl font-bold text-dark-600 select-none">{step.number}</span>
+//             <span className="text-8xl md:text-9xl font-medium text-dark-600 select-none">{step.number}</span>
 //           </div>
 
 //           {/* Subtitle with gradient */}
@@ -116,7 +116,7 @@
 //             <p className="text-primary-400 font-medium text-lg mb-2">{step.subtitle}</p>
 
 //             {/* Title */}
-//             <h3 className="text-3xl md:text-4xl font-bold text-white mb-4 leading-tight">{step.title}</h3>
+//             <h3 className="text-3xl md:text-4xl font-medium text-white mb-4 leading-tight">{step.title}</h3>
 
 //             {/* Description */}
 //             <p className="text-gray-300 text-lg leading-relaxed max-w-lg">{step.description}</p>
@@ -287,7 +287,7 @@ export default function StepByStepGuide({
                                     {isOdd ? (
                                         // Odd numbers (01, 03, 05) beside the image
                                         <div className="flex flex-row-reverse items-start gap-2 w-full">
-                                            <div className="flex-1 text-8xl md:text-9xl font-bold text-gray-700/50 leading-none  ">
+                                            <div className="flex-1 text-8xl md:text-9xl font-medium text-gray-700/50 leading-none  ">
                                                 {step.stepNumber}
                                             </div>
                                             <div className="flex-3">
@@ -321,7 +321,7 @@ export default function StepByStepGuide({
                                                 {/* Content under image */}
                                                 <div className="space-y-4">
                                                     <p className="text-yellow-500 font-medium text-sm uppercase tracking-wide">{step.subtitle}</p>
-                                                    <h3 className="text-2xl md:text-3xl font-bold leading-tight">{step.title}</h3>
+                                                    <h3 className="text-2xl md:text-3xl font-medium leading-tight">{step.title}</h3>
                                                     <p className="text-gray-300 leading-relaxed">{step.description}</p>
                                                 </div>
                                             </div>
@@ -329,7 +329,7 @@ export default function StepByStepGuide({
                                     ) : (
                                         <>
                                             <div className="flex flex-col items-start gap-2">
-                                                <div className="text-8xl md:text-9xl font-bold text-gray-700/50 leading-none mt-4 self-end">
+                                                <div className="text-8xl md:text-9xl font-medium text-gray-700/50 leading-none mt-4 self-end">
                                                     {step.stepNumber}
                                                 </div>
                                                 <div className="flex-1">
@@ -363,7 +363,7 @@ export default function StepByStepGuide({
                                                     {/* Content under image */}
                                                     <div className="space-y-4">
                                                         <p className="text-yellow-500 font-medium text-sm uppercase tracking-wide">{step.subtitle}</p>
-                                                        <h3 className="text-2xl md:text-3xl font-bold leading-tight">{step.title}</h3>
+                                                        <h3 className="text-2xl md:text-3xl font-medium leading-tight">{step.title}</h3>
                                                         <p className="text-gray-300 leading-relaxed">{step.description}</p>
                                                     </div>
                                                 </div>
@@ -382,7 +382,7 @@ export default function StepByStepGuide({
                                         //     />
 
                                         //     {/* Step number overlay */}
-                                        //     <div className="absolute top-4 right-4 text-6xl md:text-7xl font-bold text-white/80 leading-none">
+                                        //     <div className="absolute top-4 right-4 text-6xl md:text-7xl font-medium text-white/80 leading-none">
                                         //       {step.stepNumber}
                                         //     </div>
 
@@ -398,7 +398,7 @@ export default function StepByStepGuide({
                                         //   {/* Content under image */}
                                         //   <div className="space-y-4">
                                         //     <p className="text-yellow-500 font-medium text-sm uppercase tracking-wide">{step.subtitle}</p>
-                                        //     <h3 className="text-2xl md:text-3xl font-bold leading-tight">{step.title}</h3>
+                                        //     <h3 className="text-2xl md:text-3xl font-medium leading-tight">{step.title}</h3>
                                         //     <p className="text-gray-300 leading-relaxed">{step.description}</p>
                                         //   </div>
                                         // </div>

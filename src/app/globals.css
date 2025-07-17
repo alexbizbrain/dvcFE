@@ -50,6 +50,8 @@ body {
   --secondary_700: #344054;
   --border_primary: #d0d5dd;
   --bg-golden: #A87C39;
+  --text-golden: #A87C39;
+  --bg-secondary: #1c1c1c;
 }
 
 .dark {
@@ -80,12 +82,18 @@ body {
   .bg-golden {
     background-color: var(--bg-golden);
   }
+  .bg-primary {
+    background-color: var(--black);
+  }
+  .bg-secondary {
+    background-color: var(--bg-secondary);
+  }
   .bg-black {
     background-color: var(--black);
   }
   
   .text-golden {
-    color: var(--bg-golden);
+    color: var(--text-golden);
   }
   
   .border-golden {

@@ -40,10 +40,10 @@ const ShowcaseSection = () => {
 
                 {/* Main Headline */}
                 <div className="text-center mb-8 max-w-4xl">
-                    <h1 className="text-3xl md:text-3xl font-bold mb-6 leading-tight">
+                    <h1 className="text-3xl md:text-3xl font-medium mb-6 leading-tight">
                         Lost Value After an Accident?
                     </h1>
-                    <h2 className="text-3xl md:text-3xl font-bold mb-8">
+                    <h2 className="text-3xl md:text-3xl font-medium mb-8">
                         <span className="text-golden relative">
                             Claim It Back.
                             <div className="absolute bottom-0 left-0 w-full h-1 bg-golden"></div>

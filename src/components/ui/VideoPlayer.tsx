@@ -1,3 +1,4 @@
+'use client';
 import React, { useState } from 'react';
 import { PlayArrow, Close } from '@mui/icons-material';
 import Image from 'next/image';
